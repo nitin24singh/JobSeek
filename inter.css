@@ -1,4 +1,9 @@
 
+.t1t
+{
+    display: flex;
+    justify-content: center ;
+}
 a:any-link
 {
    text-decoration: none;
@@ -215,14 +220,7 @@ li:hover
    height: 100%;
    width: 100%;
 }
-.a2
-{
-    display: flex;
-    justify-content:center;
-    margin-top: 70px;
-    width:400px;
-    margin-left:40%;
-}
+
 .b1
 {
     font-family:'Roboto Condensed', sans-serif;  ;
@@ -490,12 +488,7 @@ span i{
         padding-top: 0;
         
     }
-    .a2
-    {
-        margin-left: 0;
-
-        margin-top: 10px;
-    }
+    
     .bodybg
     {
         margin-left: 10px;
@@ -550,7 +543,7 @@ span i{
  }
 }
 
- @media screen and (max-width:430px) 
+ @media screen and (max-width:450px) 
  {
     html{
         width: 100%;
@@ -602,13 +595,114 @@ span i{
         padding-top: 0;
         
     }
-    .a2
+    
+    .bodybg
     {
-       justify-content:center;
-        margin-left: 0;
-        width: 100%;
-        margin-top: 10px;
+        margin-left: 10px;
+        width:300px;
+        height: 300px;
     }
+    .jobscat
+    {
+        margin-left: 20px;
+        
+    }
+    .categories
+    {
+        flex-direction: column;
+        flex-grow: 1;
+        
+        
+    }
+    .category-box
+    {
+        width: 300px;
+        
+    }
+ .box-area
+ {
+    padding: 0px;
+ }
+ .col-md-offset-2 {
+    margin-left: 0;
+ }
+ .a5
+ {
+    height: 70px;
+    width: 200px;
+    margin-left: 0;
+ }
+ .button
+ {
+    
+    font-size: 15px;
+    padding:5px 5px;
+
+ }
+ .a1
+ {
+    text-align: right;
+ }
+ .button1
+ {
+    padding-left:20px;
+    padding-right: 20px;
+ }
+}
+
+ @media screen and (max-width:1250px) 
+ {
+    html{
+        width: 100%;
+        overflow-x: hidden;
+      }
+    body
+    {
+        margin-left:20px;
+       
+        margin-right: 0;
+        
+    }
+    .ulw
+    {
+        display: none;
+    }
+    .c
+    {
+        width:100%;
+        margin-right: 0px;
+    }
+    .navbarbg
+    {
+        width:100%
+    }
+    .a1
+    {
+        width:250px;
+        position: absolute;
+        right:1px;
+    }
+    .d1
+    {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+        
+        
+    }
+    .d2
+    {   width: auto;
+        top:30px;   
+        margin-left: 10px;
+       
+    }
+    .d3
+    {
+        
+        padding-top: 0;
+        
+    }
+  
     .bodybg
     {
         margin-left: 10px;
